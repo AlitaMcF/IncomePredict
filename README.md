@@ -3,7 +3,7 @@ CS5228 Final Project.
 
 Predict whether the income exceeds 50K.
 
-### Preprecessing
+### Preprocessing
 1. Age: divided into 17-20, 21-30, 31-40, 41-50, 51-60, 61-70, 71-80, 81-90, encoded with simple continuous number 1-8.
 2. Work class: divided into four part: private, government, self, other. One-hot encoding.
 3. Fnlwgt: abandon
