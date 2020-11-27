@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn import metrics
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import cross_val_score
-
+import time
 
 data_train = pd.read_csv('./processed_data/train_5.csv')
 test = pd.read_csv('./processed_data/test_5.csv')
@@ -52,7 +52,6 @@ print('Accuracy score:', metrics.accuracy_score(y_validate, y_validate_pred))
 #         hyperpara = i
 # print('Max accuracy score:', max_score)
 # print('hyperpara:', hyperpara)
-
 
 train_all = np.array(data_train)
 x_train_all = train_all[:, 0:-1]
